@@ -162,14 +162,8 @@ footer p {
 }
 /* Correct image display in slider */
 .slider img {
-  max-width: 100%;
-  height: auto;
-  object-fit: contain; /* Keeps aspect ratio without stretching */
-  display: block;
-  margin: auto;
-}
-
-
+  max-height: 300px; /* Adjust as needed */
+}s
 
 /* Scoped slider buttons */
 .slider-container .prev,
