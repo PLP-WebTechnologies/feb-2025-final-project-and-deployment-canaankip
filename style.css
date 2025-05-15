@@ -157,9 +157,14 @@ footer p {
 }
 
 .slide {
-  flex: 0 0 100%;       /* exactly one image per “frame” */
-  max-height: 400px;     /* optional cap on height */
+  flex-shrink: 0;
+  width: 100%;
+  max-width: 600px;
+  max-height: 400px;
   object-fit: contain;
+  margin-right: 10px;
+}
+
 }
 
 /* Scoped slider buttons */
