@@ -33,10 +33,6 @@ Welcome to my final web development project! This is a responsive and interactiv
 ## 🌐 Live Demo
 [Click here to view the live website](https://your-deployment-url.com)
 
-> *(Replace the above URL with your actual deployment link after pushing to GitHub and deploying via GitHub Pages, Netlify, or Vercel.)*
-
----
-
 ## 📁 Project Structure
 
 - `index.html` – Home page with blog post teaser and image slider.
