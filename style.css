@@ -160,9 +160,16 @@ footer p {
   max-width: 600px; /* or appropriate */
   height: auto;
 }
-
-
+/* Correct image display in slider */
+.slider img {
+  max-width: 100%;
+  height: auto;
+  object-fit: contain; /* Keeps aspect ratio without stretching */
+  display: block;
+  margin: auto;
 }
+
+
 
 /* Scoped slider buttons */
 .slider-container .prev,
