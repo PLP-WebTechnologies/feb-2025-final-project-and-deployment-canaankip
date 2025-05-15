@@ -45,7 +45,7 @@ Welcome to my final web development project! This is a responsive and interactiv
 - `post1.html` – Full article on "Importance of Learning Web Development".
 - `style.css` – External CSS for styling and animations.
 - `script.js` – JavaScript for form validation and image slider.
-- `photos` – Blog and slider images.
+- `photo1.jpg through photo5.jpg` – Slider images.
 
 ---
 
