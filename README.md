@@ -31,7 +31,7 @@ Good luck and happy coding! 🚀💻
 Welcome to my final web development project! This is a responsive and interactive multipage website built using **HTML5**, **CSS3**, and **JavaScript**. The site features a blog layout with dynamic elements such as an animated contact form and an image slider.
 
 ## 🌐 Live Demo
-[Click here to view the live website]([https://plp-webtechnologies.github.io/feb-2025-final-project-and-deployment-canaankip/])
+[Click here to view the live website](https://plp-webtechnologies.github.io/feb-2025-final-project-and-deployment-canaankip/)
 
 ## 📁 Project Structure
 
