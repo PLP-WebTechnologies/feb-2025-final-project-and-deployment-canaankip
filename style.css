@@ -1,0 +1,253 @@
+/* Basic styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  nav ul {
+    text-align: center;
+  }
+
+  nav ul li {
+    display: block;
+    margin-bottom: 10px;
+  }
+}
+article {
+  margin: 20px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+}
+
+h1 {
+  font-size: 2em;
+  color: #333;
+}
+
+h2 {
+  font-size: 1.5em;
+  color: #555;
+}
+
+p {
+  line-height: 1.6;
+}
+/* Fade-in animation for page load */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* Apply fadeIn animation to the entire body */
+body {
+  animation: fadeIn 2s ease-in-out;
+}
+/* Bounce animation on button hover */
+@keyframes bounce {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+button:hover {
+  animation: bounce 0.5s ease-in-out;
+}
+/* Style for the button */
+#animateFormButton {
+  background-color: #4CAF50;  /* Green background */
+  color: white;               /* White text */
+  padding: 10px 20px;         /* Padding */
+  border: none;               /* Remove border */
+  border-radius: 5px;         /* Rounded corners */
+  font-size: 16px;            /* Text size */
+  cursor: pointer;           /* Pointer cursor on hover */
+  transition: background-color 0.3s ease;
+}
+
+#animateFormButton:hover {
+  background-color: #45a049;  /* Darker green on hover */
+}
+/* Set background color for the body */
+body {
+  background-color: #fff;  /* White background */
+  color: #333;             /* Dark text color for readability */
+  font-family: Arial, sans-serif; /* Choose a clean font */
+}
+
+/* Set header and footer background color */
+header, footer {
+  background-color: #0e0d0d;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+footer p {
+  text-align: center;
+}
+/* Style the contact form */
+#contactForm {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #f4f4f4;  /* Light background */
+  border-radius: 8px;          /* Rounded corners */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);  /* Subtle shadow */
+}
+
+/* Bounce effect on form trigger */
+@keyframes bounce {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1); /* Increase size */
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+/* Slider Container */
+.slider-container {
+  position: relative;
+  max-width: 600px;
+  margin: 2rem auto;
+  overflow: hidden;
+}
+
+.slider {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+.slide {
+  flex: 0 0 100%;       /* exactly one image per “frame” */
+  max-height: 400px;     /* optional cap on height */
+  object-fit: contain;
+}
+
+/* Scoped slider buttons */
+.slider-container .prev,
+.slider-container .next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0,0,0,0.5);
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+  z-index: 1;
+}
+.slider-container .prev { left: 10px; }
+.slider-container .next { right: 10px; }
+.slider-container .prev:hover,
+.slider-container .next:hover {
+  background: rgba(0,0,0,0.8);
+}
+
+.prev {
+  left: 0;
+  transform: translateY(-50%);
+}
+
+.next {
+  right: 0;
+  transform: translateY(-50%);
+}
+.contact-form .form-group {
+  margin-bottom: 1rem;
+}
+
+.contact-form .form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.contact-form .form-group input,
+.contact-form .form-group textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.button-group button {
+  margin-right: 1rem;  /* space to the right of each button */
+}
+
+.button-group button:last-child {
+  margin-right: 0;     /* no extra margin after the last button */
+}
+
+.button-group {
+  margin-top: 1rem;    /* optional spacing above the button row */
+}
+/* ----------------------------------------------------------------------------
+   Button spacing in the contact form
+   ---------------------------------------------------------------------------- */
+.contact-form .button-group {
+  display: flex;             /* lay out buttons in a row */
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;                 /* modern, reliable spacing between buttons */
+  margin-top: 1rem;          /* space above the button row */
+}
+
+/* Fallback for older browsers if gap isn’t supported */
+.contact-form .button-group button {
+  margin-right: 1rem !important;
+}
+
+/* Remove extra margin on the last button */
+.contact-form .button-group button:last-child {
+  margin-right: 0 !important;
+}
+/* Send Message button hover */
+.contact-form .button-group button[type="submit"]:hover {
+  background-color: #388E3C;
+}
+
+/* Animate Form button hover */
+#animateFormButton:hover {
+  background-color: #3E8E41;
+}
+
+

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Blog - Home</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- Welcome Section -->
+    <section>
+      <h1>Welcome to My Blog</h1>
+      <p>Hello! I'm Canaan, a student passionate about web development and technology. This blog shares my learning journey, projects and insights in tech.</p>
+    </section>
+
+    <!-- Blog Post Preview -->
+    <section class="blog-posts">
+      <h2>Featured Blog Post</h2>
+      <article>
+        <h3>Importance of Learning Web Development</h3>
+        <p><em>Published on: March 12, 2025</em></p>
+        <p>Learning web development opens up endless opportunities for building creative, functional, and professional web applications...</p>
+        <a href="post1.html">Read more</a>
+      </article>
+    </section>
+
+    <!-- Image Slider Section -->
+    <section>
+      <h2>Photo Gallery</h2>
+      <div class="slider-container">
+        <button class="prev" onclick="moveSlide(-1)">❮</button>
+        <div class="slider">
+          <img src="photo1.jpg" alt="Photo 1" class="slide">
+          <img src="photo2.jpg" alt="Photo 2" class="slide">
+          <img src="photo3.jpg" alt="Photo 3" class="slide">
+          <img src="photo4.jpg" alt="Photo 4" class="slide">
+          <img src="photo5.jpg" alt="Photo 5" class="slide">
+        </div>
+        <button class="next" onclick="moveSlide(1)">❯</button>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Canaan's Blog. All Rights Reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
